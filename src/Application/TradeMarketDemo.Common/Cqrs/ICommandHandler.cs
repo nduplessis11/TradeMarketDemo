@@ -1,4 +1,4 @@
-namespace TradeMarketDemo.Cqrs;
+namespace TradeMarketDemo.Common.Cqrs;
 
 // For commands without a response
 public interface ICommandHandler<in TCommand> where TCommand : ICommand

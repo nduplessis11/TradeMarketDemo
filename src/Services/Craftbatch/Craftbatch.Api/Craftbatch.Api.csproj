@@ -13,4 +13,8 @@
       </Content>
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\..\..\Application\TradeMarketDemo.Common\TradeMarketDemo.Common.csproj" />
+    </ItemGroup>
+
 </Project>

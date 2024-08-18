@@ -1,4 +1,4 @@
-namespace TradeMarketDemo.Cqrs;
+namespace TradeMarketDemo.Common.Cqrs;
 
 // Void / No response
 public struct Unit

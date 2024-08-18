@@ -11,9 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Craftbatch.Api", "Services\
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{5EC2B559-DC9B-46C9-9BB8-F5AF69838E6A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TradeMarketDemo.Cqrs", "Application\TradeMarketDemo.Cqrs\TradeMarketDemo.Cqrs.csproj", "{7CEB1106-64C4-4090-9B14-837D80CB68C3}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TradeMarketDemo.Cqrs.Tests", "Application\TradeMarketDemo.Cqrs.Tests\TradeMarketDemo.Cqrs.Tests.csproj", "{8066DFE6-0C64-424D-9298-07D531B4BC82}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TradeMarketDemo.Common", "Application\TradeMarketDemo.Common\TradeMarketDemo.Common.csproj", "{7CEB1106-64C4-4090-9B14-837D80CB68C3}"
 EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
@@ -26,7 +24,6 @@ Global
 		{52A08E54-A04E-4CA3-8E9A-B8F996B34C01} = {D6E4BCDE-047A-49B4-BCFE-C4373A61683B}
 		{F23FB456-A4EC-4DA6-9E43-F126F8814FE8} = {52A08E54-A04E-4CA3-8E9A-B8F996B34C01}
 		{7CEB1106-64C4-4090-9B14-837D80CB68C3} = {5EC2B559-DC9B-46C9-9BB8-F5AF69838E6A}
-		{8066DFE6-0C64-424D-9298-07D531B4BC82} = {5EC2B559-DC9B-46C9-9BB8-F5AF69838E6A}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{F23FB456-A4EC-4DA6-9E43-F126F8814FE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -37,10 +34,6 @@ Global
 		{7CEB1106-64C4-4090-9B14-837D80CB68C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7CEB1106-64C4-4090-9B14-837D80CB68C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7CEB1106-64C4-4090-9B14-837D80CB68C3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8066DFE6-0C64-424D-9298-07D531B4BC82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8066DFE6-0C64-424D-9298-07D531B4BC82}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8066DFE6-0C64-424D-9298-07D531B4BC82}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8066DFE6-0C64-424D-9298-07D531B4BC82}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
